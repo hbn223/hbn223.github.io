@@ -21,8 +21,8 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
-  color: rgb(255, 227, 152);
-  background-color: skyblue;
+  color: skyblue;
+  background-color: rgb(235, 222, 195);
 }
 
 /* images and videos max out at full width */
