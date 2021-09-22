@@ -65,7 +65,7 @@
 .img-left {
   flex: 50%;
   display: flex;
-  /* overflow: hidden; */
+  overflow: hidden;
   /* position: relative; */
   height: 50vh;
   width: 50vw;
@@ -77,7 +77,7 @@
   flex: 50%;
   display: flex;
   /* flex-shrink: initial; */
-  /* overflow: hidden; */
+  overflow: hidden;
   /* position: relative; */
   height: 50vh;
   width: 50vw;
