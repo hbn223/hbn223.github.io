@@ -76,7 +76,7 @@
 .img-right {
   flex: 50%;
   display: flex;
-  flex-shrink: initial;
+  /* flex-shrink: initial; */
   /* overflow: hidden; */
   /* position: relative; */
   height: 50vh;
