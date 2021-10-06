@@ -1,0 +1,65 @@
+body {
+  margin: 0 auto;
+}
+
+* {
+  overflow: auto;
+}
+
+.element-text {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+header {
+  height: 600px;
+  background: #486086;
+  padding-top: 300px;
+}
+
+.sidebar-1,
+.sidebar-2 {
+  height: 600px;
+  float: left;
+  padding-top: 300px;
+}
+.sb-first {
+  width: 50%;
+}
+.sb-second {
+  width: 33.33%;
+}
+.sidebar-1 {
+  background: #fdfaec;
+}
+.sidebar-2 {
+  background: #d9e7f2;
+}
+
+.main {
+  height: 600px;
+  background: #ea9185;
+  float: left;
+  padding-top: 300px;
+}
+.first {
+  width: 75%;
+}
+.second {
+  width: 100%;
+}
+
+#div {
+  height: 600px;
+  float: left;
+  width: 25%;
+  background: #fce7c5;
+  padding-top: 300px;
+}
+
+footer {
+  height: 160px;
+  background: #486086;
+  padding-top: 80px;
+}
