@@ -1,0 +1,188 @@
+body {
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    /* align-items: center; */
+    /* height: 80px; */
+    /* position: relative; */
+    
+    background-color: #fffbc7;
+    overflow: hidden;
+    /* height: 75px; */
+    height: 10vmin;
+}
+
+.navbar a {
+    display: inline-block;
+}
+
+/* .navbar a:not(.logo) {
+    float: left;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* height: 30px; */
+    /* padding: 15px; */
+    /*
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+} */
+
+.navbar-left a:link {
+    /* background-color: #dfd782; */
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-right a:link {
+    /* background-color: #dfd782; */
+}
+
+.navbar-left a:hover, .navbar-right a:hover {
+    background-color: #cce2ff;
+    color: black;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.5px;
+    /* font-family: 'Nunito', sans-serif; */
+    /* font-family: sans-serif; */
+    /* font-weight: 800;
+    font-size: 16pt; */
+    /* font-weight: bold ; */
+}
+
+
+/* .navbar-centered a { */
+.logo {
+    /* height: 8vmin; */
+    float: none;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    /* padding: 250px; */
+    padding: 8vw;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    transition: left 0.3s;
+}
+
+.logo:hover {
+    left: 53.5%;
+
+}
+
+.logo:hover + .logo-text {
+    display: block;
+    opacity: 100%;
+    left: 48%;
+
+}
+
+
+
+.logo + .logo-text {
+    /* display: none; */
+    float: none;
+    position: fixed;
+    /* top: 52%; */
+    top: 5%;
+    left: 49%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+    transition: opacity 0.15s, left 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.navbar-left {
+    justify-content: space-between;
+}
+
+.navbar-left a {
+    display: inline-flex;
+    float: left;
+    background-color: none;
+    transition: background-color 0.3s, text-stroke 0.3s;
+    transition-timing-function: ease-out;
+
+    font-family: sans-serif;
+    /* font-weight: 400; */
+    font-size: 2.5vmin;
+    /* overflow: hidden; */
+    /* width: auto; */
+    /* position: relative; */
+    /* top: 70%; */
+    padding: 7px 10px;
+    margin: 2.5vmin 0px 18px 1.5vw;
+
+}
+
+.navbar-right {
+    float: right;
+    text-align: center;
+    /* right: 50%; */
+    /* padding: 10px 10px 0px 0px; */
+}
+
+.navbar-right a {
+    /* width: 20px; */
+    /* right: -10%; */
+    vertical-align: middle;
+    padding: 8px 10px 4px;
+    margin: 15px 5px;
+    /* padding: 20px; */
+    /* text-align: center; */
+}
+
+a[href$="bag"] {
+    margin: 16px 18px 16px 0px;
+}
+
+
+/* ul {
+    height: 70px;
+    list-style-type: none;
+    margin: 0
+    padding: 0;
+    overflow: hidden;
+    background-color: #fffbc7;
+} */
+  
+/* li :not(.logo){
+    vertical-align: middle;
+    float: left;
+}
+
+.logo {
+    position: relative;
+    text-align: center;
+} */
+
+/* .navbar-right-button {
+    float: right;
+    height: 80px;
+}
+
+a:not(#logo) {
+    display: flex;
+    color: #707070;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 25px;
+    text-decoration: none;
+} */
+
+/* Change the link color to #111 (black) on hover */
+/* li a:hover:not(#logo) {
+    background-color: #fdfbea;
+    text-decoration: underline;
+}
+
+.active {
+    background-color: #cfca87;
+} */
+
