@@ -12,7 +12,7 @@ body {
     /* position: relative; */
     /* padding-top: 60px; */
     /* position: fixed; */
-    z-index: 2;
+    /* z-index: 2; */
     background-color: #fffbc7;
     overflow: hidden;
     height: 70px;
@@ -23,15 +23,15 @@ body {
     display: inline-flex;
 } */
 
-.sticky {
+/* .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} */
 
-.sticky + .navbar>* {
+/* .sticky + .navbar>* {
     padding-top: 60px;
-}
+} */
 
 .navbar a {
     display: inline-block;
@@ -50,39 +50,26 @@ body {
     font-size: 17px;
 } */
 
-.navbar-left a.active {
-    color: beige;
-    background-color: rgb(179, 179, 226);
-    -webkit-text-stroke: 0.5px;
-    /* text-decoration: underline; */
-}
 
-.navbar-left a:hover, .navbar-right a:hover {
-    /* background-color: #cce2ff; */
-    background-color: blanchedalmond;
-    color: rgb(165, 35, 35);
-    text-decoration: underline;
-    -webkit-text-stroke: 0.5px;
-    /* font-family: 'Nunito', sans-serif; */
-    /* font-family: sans-serif; */
-    /* font-weight: 800;
-    font-size: 16pt; */
-    /* font-weight: bold ; */
+.navbar-centered a {
+    overflow: hidden;
 }
-
 
 .navbar-centered a {
     float: none;
     position: fixed;
     /* overflow: hidden; */
     /* display: inline-flex; */
+    /* top: 4%; */
     margin-top: 38px;
     padding: 5px 6vw;
     /* padding-left: 10%; */
 }
 
 .logo {
+    /* position: fixed; */
     box-sizing: border-box;
+    top: 5%;
     left: 50%;
     /* padding-left: 100vw; */
     /* padding: 250px; */
@@ -97,8 +84,9 @@ body {
     /* display: none; */
     /* float: none;
     position: fixed; */
+    position: fixed;
     /* top: 52%; */
-    /* top: 5%; */
+    top: 5%;
     left: 49%;
     /* padding: 20px; */
     transform: translate(-50%, -50%);
@@ -156,7 +144,10 @@ body {
 
 }
 
-
+.navbar-right a {
+    padding: 8px 10px 5px;
+    margin-top: 18px;
+}
 
 .navbar-left a, .navbar-right a {
     transition: background-color 0.3s;
@@ -164,10 +155,30 @@ body {
     /* margin-top: var(--height/2); */
 }
 
-.navbar-right a {
-    padding: 8px 10px 5px;
-    margin-top: 18px;
+.navbar-left a.active {
+    color: rgb(165, 35, 35);
+    -webkit-text-stroke: 0.5px;
+    text-decoration: underline;
+    /* background-color: rgb(179, 179, 226); */
+    /* background-color: white; */
 
+    /* outline: 2px solid rgb(165, 35, 35);
+    transition: outline 0.1s;
+    transition-timing-function: ease-in-out; */
+}
+
+.navbar-left a:hover, .navbar-right a:hover {
+    /* background-color: #cce2ff; */
+    background-color: blanchedalmond;
+    /* outline: none; */
+    color: rgb(165, 35, 35);
+    /* text-decoration: underline; */
+    -webkit-text-stroke: 0.5px;
+    /* font-family: 'Nunito', sans-serif; */
+    /* font-family: sans-serif; */
+    /* font-weight: 800;
+    font-size: 16pt; */
+    /* font-weight: bold ; */
 }
 
 
