@@ -63,7 +63,7 @@ body {
 .index-logo {
     margin: auto;
     width: 30%;
-    display: flex;
+    /* display: flex; */
 }
 
 .index-logo a {
