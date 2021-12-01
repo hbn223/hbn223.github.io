@@ -2,13 +2,13 @@
 <html>
     <head>
         <title>Citrus&#8211Oasis</title>
-        <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/desktop/index.css" type="text/css"/>
+        <link rel="stylesheet" href="css/desktop/style.css" type="text/css"/>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Montserrat:wght@300;500&family=Nunito:ital,wght@0,300;1,700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Comfortaa&family=Balsamiq+Sans:ital@0;1&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400&family=Delius+Unicase:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@300;400;700&family=Bellota+Text:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,700&family=Bellota+Text:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,9 +36,6 @@
                 </a>
                 <a href="bag.html" ><img src="icons/svg/bag.svg"></a>
             </div>
-
-
-
             
             <!-- <ul>
                 <li class="navbar-left-button"><a href="#explore">explore</a></li>
@@ -56,7 +53,35 @@
                 </a></li>
             </ul> -->
         </div>
-
+        <nav id="hamburger" role="navigation">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+              
+              <!--
+              Some spans to act as a hamburger.
+              
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                <a href="explore.html"><li>explore</li></a>
+                <a href="products.html"><li>shop</li></a>
+                <a href="stores.html"><li>our stores</li></a>
+              </ul>
+            </div>
+          </nav>
         
         <div class="grid">
             <!-- <img class="wave" src="assets/background/wave-1.png" width=160px> -->
@@ -93,7 +118,7 @@
 
             </div>
 
-            <div class="category">fizz!</div>
+            <div class="category" style="font-family: Bellota; font-style:italic; letter-spacing: 0">fizz!</div>
             <div class="row-2">
                 <div class="product col-1">
                     <img src="assets/background/2.jpg">
@@ -125,7 +150,7 @@
             </div>
 
             
-            <div class="category">BOOST</div>
+            <div class="category" style="-webkit-text-stroke: 2.5px;">BOOST</div>
             <div class="row-3">
                 <div class="product col-1">
                     <img src="assets/background/1.jpg">
