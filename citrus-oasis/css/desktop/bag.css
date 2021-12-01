@@ -458,19 +458,19 @@ a[href$="user"] {
 }
 
 .item-img {
-    width: 10vw;
+    width: 10%;
     text-align: center;
     /* margin-right: 0px; */
 }
 .about {
-    width: 32%;
+    width: 30%;
     /* padding-left: 5%; */
 }
 .name {
     padding-top: 5px;
     /* margin-right: 0px; */
     line-height: 10px;
-    font-size: 24px;
+    font-size: 2vw;
     font-family: 'Bellota';
     font-weight: 700;
     color: #202020;
@@ -543,16 +543,17 @@ a[href$="user"] {
 /* SUBTOTAL */
 .summary{
     /* z-index: 1; */
-    outline: 20px solid rgb(255, 240, 240);
+    /* outline: 20px solid rgb(255, 240, 240); */
+    padding: 20px 20px 20px;
     position: absolute;
-    left: 68%;
-    top: 39%;
+    left: 65%;
+    top: 36%;
     transform: translateY(-50%);
     float: right;
     background-color: rgb(255, 240, 240);
     /* margin: auto; */
-    width: 25%;
-    height: 35%;
+    width: 30%;
+    height: 38%;
     /* display: flex; */
     justify-content: space-between;
     /* align-items: center; */
@@ -580,12 +581,14 @@ a[href$="user"] {
     font-family: 'Montserrat';
     font-weight: 400;
     color: #202020;
+    line-height: 0.8em;
 }
 .summary-item-amount {
     font-size: 18px;
     font-family: 'Montserrat';
     font-weight: 600;
     color: #202020;
+    line-height: 0.8em;
 }
 
 .summary-footer {
@@ -609,7 +612,8 @@ a[href$="user"] {
 }
 
 #checkout {
-    margin-top: 15%;
+    margin-right: -5%;
+    margin-top: 2.5rem;
     text-align: right;
     /* align-items: baseline; */
     font-size: 21px;
@@ -665,6 +669,15 @@ a:not(#logo) {
 .active {
     background-color: #cfca87;
 } */
+
+@media screen and (min-width: 1200px) {
+    .bag-container {
+        display: grid;
+    }
+}
+
+
+
 
 @media screen and (min-width: 899px) {
     #hamburger {
