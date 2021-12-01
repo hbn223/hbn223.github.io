@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>Citrus&#8211Oasis</title>
-        <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/desktop/trash.css" type="text/css"/>
+        <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/desktop/trash2.css" type="text/css"/>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,500&family=Nunito:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Montserrat:wght@300;500&family=Nunito:ital,wght@0,300;1,700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Comfortaa&family=Balsamiq+Sans:ital@0;1&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400&family=Delius+Unicase:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@300;400;700&family=Bellota+Text:ital,wght@1,700&display=swap" rel="stylesheet">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -21,23 +23,128 @@
             <div class="navbar-left">
                 <a href="explore.html">explore</a>
                 <a href="products.html">shop</a>
-                <a href="stores.html" class="active">our stores</a>
+                <a href="stores.html">our stores</a>
             </div>
 
             <div class="navbar-right">
                 <a href="#user">
                     <img src="icons/svg/user.svg">
                 </a>
-                <a href="#bag" ><img src="icons/svg/bag.svg"></a>
+                <a href="bag.html" ><img src="icons/svg/bag.svg"></a>
             </div>
 
         </div>
 
-        <div>
-            <img src="assets/background/1.1.jpg">
+        <div class="bag-container">
+            <div class="header">
+                <h1 class="heading">Your bag</h1>
+            </div>
+            
+            <div class="info">
+                <h4>price</h4>
+                <h4>qty.</h4>
+                <!-- <h4>subtotal</h4> -->
+            </div>
+            
+            <div class="item">
+                <div class="item-img">
+                    <img src="assets/background/cart-1.jpg" alt="item 1" height="120px">
+                </div>
+                <div class="about">
+                    <h2 class="name">Citrus-Berry</h2>
+                    <h3 class="desc">lemon, grapefruit, strawberry</h3>
+                </div>
+
+                <div class="price">$8.99</div>
+
+                <div class="counter">
+                    <div class="button">-</div>
+                    <div class="count">2</div>
+                    <div class="button">+</div>
+                </div>
+
+                <div class="total">
+                    <div class="amount">$17.98</div>
+                    <div class="remove"><u>remove</u></div>
+                </div> 
+            </div>
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="assets/background/cart-1.jpg" alt="item 1" height="120px">
+                </div>
+                <div class="about">
+                    <h2 class="name">Citrus-Berry</h2>
+                    <h3 class="desc">lemon, grapefruit, strawberry</h3>
+                </div>
+
+                <div class="price">$8.99</div>
+
+                <div class="counter">
+                    <div class="button">-</div>
+                    <div class="count">2</div>
+                    <div class="button">+</div>
+                </div>
+
+                <div class="total">
+                    <div class="amount">$17.98</div>
+                    <div class="remove"><u>remove</u></div>
+                </div> 
+            </div>
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="assets/background/cart-1.jpg" alt="item 1" height="120px">
+                </div>
+                <div class="about">
+                    <h2 class="name">Citrus-Berry</h2>
+                    <h3 class="desc">lemon, grapefruit, strawberry</h3>
+                </div>
+
+                <div class="price">$8.99</div>
+
+                <div class="counter">
+                    <div class="button">-</div>
+                    <div class="count">2</div>
+                    <div class="button">+</div>
+                </div>
+
+                <div class="total">
+                    <div class="amount">$17.98</div>
+                    <div class="remove"><u>remove</u></div>
+                </div> 
+            </div>
+            
+            <div class="summary">
+                <div id="summary-heading">Summary</div>
+                <div class="summary-item">
+                    <div class="summary-item-name">subtotal</div>
+                    <div class="summary-item-amount">$30.46</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-item-name">taxes & fees</div>
+                    <div class="summary-item-amount">$2.87</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-item-name">delivery</div>
+                    <div class="summary-item-amount">free</div>
+                </div>
+                <div class="summary-footer">
+                    <div class="summary-footer-name">total</div>
+                    <div class="summary-footer-amount">$54.88</div>
+                </div>
+
+                <div id="checkout">
+                    <div id="text">checkout</div>
+                    <div id="arrow">
+                        
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-
+        
 
 
 
