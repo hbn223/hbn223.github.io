@@ -433,7 +433,7 @@ a[href$="user"] {
     .item > .about {
         display: block;
         position: absolute;
-        width: 100%;
+        width: 85%;
         margin-left: 135px;
         top: 10%;
         /* margin-left: 20px; */
@@ -445,6 +445,9 @@ a[href$="user"] {
          /* position: absolute; */
         /* top: 90%; */
         width: auto;
+    }
+    .item > .price {
+        margin-left: 20px;
     }
     .item > .counter {
         /* margin-left: 5%;
