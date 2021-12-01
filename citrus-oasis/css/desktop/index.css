@@ -114,12 +114,13 @@ body {
     
     .buttons {
         display: grid;
-        grid-row-gap: 10px;
+        /* grid-row-gap: 30px; */
         left: 51%;
         transform: translate(-50%, -20%);
     }
     .buttons a {
         text-align: center;
+        padding-top: 1em;
     }
   }
 
