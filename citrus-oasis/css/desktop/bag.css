@@ -409,6 +409,51 @@ a[href$="user"] {
     height: 85%;
 }
 
+@media screen and (max-width: 1000px) {
+    .bag-container {
+        /* display: grid; */
+        /* position: relative; */
+    }
+    .header {
+        /* padding-top: 30px;  */
+    }
+    .bag-container > .info {
+        display: none;
+    }
+    .item {
+        /* display: block; */
+        position: relative;
+        width: 100%;
+        /* justify-content: space-between; */
+    }
+    .item > .item-img {
+        width: 30%;
+        text-align: left;
+    }
+    .item > .about {
+        display: block;
+        position: absolute;
+        width: 100%;
+        margin-left: 135px;
+        top: 10%;
+        /* margin-left: 20px; */
+    }
+    .about > .desc {
+        display: none;
+    }
+    .item > .price, .counter, .total {
+        /* position: absolute;
+        top: 90%; */
+        /* width: 20%; */
+    }
+    .item > .counter {
+        margin-left: 5%;
+        margin-right: -5%;
+        /* display: contents; */
+        width: auto;
+    }
+
+}
 .header{
     margin: auto;
     margin-top: 25px;
@@ -457,6 +502,8 @@ a[href$="user"] {
     color: #202020;
 }
 
+
+
 .item {
     margin: auto;
     width: 85%;
@@ -479,7 +526,7 @@ a[href$="user"] {
     padding-top: 5px;
     /* margin-right: 0px; */
     line-height: 10px;
-    font-size: 2vw;
+    font-size: 22px;
     font-family: 'Bellota';
     font-weight: 700;
     color: #202020;
@@ -686,9 +733,11 @@ a:not(#logo) {
 
 @media screen and (max-width: 1000px) {
     .bag-container {
-        display: grid;
+        /* justify-content: none; */
+        /* display: grid; */
         /* margin: 10%; */
-        width: 100vw;
+        width: 85%;
+        float: left;
     }
 
     .summary {
