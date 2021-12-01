@@ -442,13 +442,13 @@ a[href$="user"] {
         display: none;
     }
     .item > .price, .counter, .total {
-        /* position: absolute;
-        top: 90%; */
-        /* width: 20%; */
+         /* position: absolute; */
+        /* top: 90%; */
+        width: auto;
     }
     .item > .counter {
-        margin-left: 5%;
-        margin-right: -5%;
+        /* margin-left: 5%;
+        margin-right: -5%; */
         /* display: contents; */
         width: auto;
     }
@@ -520,6 +520,7 @@ a[href$="user"] {
 }
 .about {
     width: 30%;
+    /* margin-left: 135px; */
     /* padding-left: 5%; */
 }
 .name {
