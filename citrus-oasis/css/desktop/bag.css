@@ -394,6 +394,15 @@ a[href$="user"] {
 
 } */
 
+@media screen and (max-width: 1000px) {
+    .bag-container {
+        margin-top: 5%;
+        width: 100%;
+    }
+    .info {
+        display: grid;
+    }
+}
 
 .bag-container {
     width: 65%;
@@ -670,9 +679,20 @@ a:not(#logo) {
     background-color: #cfca87;
 } */
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1000px) {
     .bag-container {
         display: grid;
+        /* margin: 10%; */
+        width: 100vw;
+    }
+
+    .summary {
+        position: relative;
+        margin: auto;
+        width: 85%;
+        height: 95%;
+        top: 55%;
+        left: 0%;
     }
 }
 
