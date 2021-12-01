@@ -427,7 +427,7 @@ a[href$="user"] {
         /* justify-content: space-between; */
     }
     .item > .item-img {
-        width: 30%;
+        width: 40%;
         text-align: left;
     }
     .item > .about {
@@ -441,20 +441,24 @@ a[href$="user"] {
     .about > .desc {
         display: none;
     }
-    .item > .price, .counter, .total {
+    .item > .price, .item > .counter > .count, .item > .total > .amount {
          /* position: absolute; */
         /* top: 90%; */
+        font-size: 18px;
         width: auto;
     }
     .item > .price {
+        /* font-size: 16px; */
         margin-left: 20px;
     }
     .item > .counter {
         /* margin-left: 5%;
         margin-right: -5%; */
         /* display: contents; */
+        /* font-size: 16px; */
         width: auto;
     }
+
 
 
 
